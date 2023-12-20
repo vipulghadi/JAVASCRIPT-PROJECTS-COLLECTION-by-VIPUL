@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <title>Guess The Number</title>
+</head>
+
+<body class="bg-primary">
+    <div class="mx-auto p-3 bg-white border rounded text-center" style="width: 80%; height: auto; margin-top: 100px;display:none" id="result">
+        <h2 id="result-statement" class=" mt-1">sfgnpsfg</h2>
+        <h5 id="result-score"></h5>
+        <div id="result-btns" class="d-flex justify-content-center align-items-center mt-5 " style="gap: 10px;">
+            <button class="btn btn-primary " id="play-again">Play Again</button>
+            <button class="btn btn-danger" id="exit">Exit</button>
+        </div>
+
+    </div>
+    <div class="card flex mx-auto p-3" style="width: 90%; height: auto; margin-top: 100px " id="start-game">
+        <h1 class="text-center ">Guess The Number</h1>
+        <h4 class="text-center ">Lets Play The Game</h4>
+        <div class="buttons mt-3 text-center ">
+            <button class="btn btn-success mx-2 level" id="easy">Easy</button>
+            <button class="btn btn-warning mx-2 level" id="medium">Medium</button>
+            <button class="btn btn-danger mx-2 level" id="hard">Hard</button>
+        </div>
+    </div>
+    <div class="card flex mx-auto p-3 " style="width: 90vw; height: 400px; margin-top: 100px; display: none" id="play-game">
+        <div id="remaining-chances" style=" position: absolute; width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; left: 45%; top: -10%; font-size: 30px; " class="bg-danger "></div>
+
+        <button class="game-level btn btn-primary float-right "></button><br />
+        <div>
+            <span id="hint"></span>
+            <input type="number" class="p-2 " style="border: 1px solid blue; outline: none " id="input-number" value="" />
+            <button class=" btn btn-warning " id="check-number">check</button>
+        </div>
+
+        <div id="input-data" class=" mt-5 p-3 " style="height: 50%;display:flex;gap:15px;background-color:rgb(221, 234, 240);color:white;font-size:10px"></div>
+
+        <div class="footer mt-4 p-3 ">
+            <button class="btn btn-danger float-right " id="quit">Quit</button>
+        </div>
+    </div>
+    <footer class="bg-dark text-center" style="position: absolute;bottom:0;width:100%;color:white;font-size:12px">developed by Vipul Ghadi</footer>
+</body>
+<script src="./css/bootstrap.bundle.min.js "></script>
+<script src="pagejs.js "></script>
+
+</html>

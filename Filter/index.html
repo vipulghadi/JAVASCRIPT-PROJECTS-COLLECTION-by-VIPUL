@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        .name {
+            background: rgb(210, 210, 216);
+            padding: 5px;
+            margin-bottom: 5px;
+        }
+        
+        .new :hover {
+            background-color: red !important;
+        }
+    </style>
+</head>
+
+<body style="font-family:sans-serif;" class="bg-white">
+    <!-- navbar-start -->
+    <nav class="bg-primary d-flex justify-content-between px-5 align-items-center fixed-top" style="height: 70px;color:white;font-size:30px">
+        <div class="logo">MyNotes</div>
+
+        <div id="add-new-note" style="font-weight: bold; width:40px;border-radius:50%;height:40px;cursor:pointer" class="bg-warning text-center new  ">+</div>
+    </nav>
+    <!-- navbar-start -->
+
+    <!-- main-body-start-->
+    <div id="main-body" style="margin-top:70px;gap:20px;display:flex;flex-wrap:wrap" class=" p-4">
+        <div class="notepad bg-white rounded p-2" id="${id}" style="height: auto;width:250px;overflow:hidden;position:relative">
+
+            <div id="costomize" class="d-flex p-1 justify-content-end mt-1 ">
+                <button class=" mr-1 btn btn-primary d-flex justify-content-center align-items-center" style="border-radius: 50%;width:30px;height:30px;text-align:center" id="save">S</button>
+                <button class=" mr-1 btn btn-success d-flex justify-content-center align-items-center " style="border-radius: 50%;width:30px;height:30px;text-align:center" id="edit">E</button>
+                <button class=" mr-1 btn btn-danger d-flex justify-content-center align-items-center" style="border-radius: 50%;width:30px;height:30px;text-align:center" id="delete">D</button>
+
+            </div>
+            <div class="date rounded text-center p-1" style="width: 80px;position:absolute;left:10px;top:20px;font-size:15px;background-color:rgb(209, 228, 236);">ef</div>
+
+            <textarea name="" id="" cols="30" rows="10" style="width: 100%;;border:none;outline:none;background-color:rgb(243, 243, 245);height:auto" class="p-2 mt-2" placeholder="write something" readonly>ef</textarea>
+
+
+
+
+
+
+        </div>
+        <!-- main-body-end-->
+
+        <!-- <footer class="bg-dark text-center" style="position: absolute;width:100%;color:white;font-size:12px;bottom:70px">developed by Vipul Ghadi</footer> -->
+</body>
+<script src="/css/bootstrap.bundle.min.js">
+</script>
+<script src="/pagejs.js"></script>
+
+</html>

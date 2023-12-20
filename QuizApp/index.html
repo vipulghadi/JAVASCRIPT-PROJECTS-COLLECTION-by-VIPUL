@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="game-over bg-danger border rounded flex mt-3" style="position: absolute; width:550px;height:100px;left:30%;top:20%;display:none;text-align:center"> Game Over!!! your score is
+            <span class="score ">
+                </span>
+            <br>
+            <button class="btn btn-success" id="exit-button">Exit</button>
+        </div>
+        <div class=" headling text-center bold mt-5 p-3 border " style="font-size: 25px;font-weight:bolder ">Quiz App
+            <span id="question-number"></span>
+        </div>
+        <div class="bg-primary p-3 border-rounded" style="font-size: 19px;" id="question">
+
+        </div>
+        <div class="options flex-row p-3 ">
+            <li><input type="radio" name="opt" class="option" id="0">
+                <label for=" " id="opt-a" class="opt">a</label>
+            </li>
+            <li><input type="radio" name="opt " class="option" id="1">
+                <label for=" " id="opt-b" class="opt">dfsf</label>
+            </li>
+            <li><input type="radio" name="opt " class="option" id="2">
+                <label for=" " id="opt-c" class="opt">af</label>
+            </li>
+            <li><input type="radio" name="opt " class="option" id="3">
+                <label for=" " id="opt-" class="opt">safsf</label>
+            </li>
+        </div>
+        <button class="btn btn-primary mt-3 " id="next-button">Next</button>
+    </div>
+    <footer class="bg-dark text-center" style="position: absolute;bottom:0;width:100%;color:white;font-size:12px">developed by Vipul Ghadi</footer>
+</body>
+<script src="./css/bootstrap.bundle.min.js "></script>
+<script src="pagejs.js "></script>
+
+</html>
