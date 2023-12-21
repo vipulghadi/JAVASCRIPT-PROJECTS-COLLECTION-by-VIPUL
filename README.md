@@ -19,4 +19,8 @@ Welcome to the JavaScript Wonders GitHub repository! Dive into the world of awe-
 ![Screenshot 2023-12-21 113912](https://github.com/vipulghadi/JAVASCRIPT-PROJECTS-IMP-/assets/99540970/32a3a70c-d30e-4d22-8aca-9361d3b22686)
 
 #------------------TIC TAC TOE------------------------
+![Screenshot 2023-12-21 115445](https://github.com/vipulghadi/JAVASCRIPT-PROJECTS-IMP-/assets/99540970/58d1f295-6aa3-4950-8782-7f50b70b6c98)
+![Screenshot 2023-12-21 115430](https://github.com/vipulghadi/JAVASCRIPT-PROJECTS-IMP-/assets/99540970/a7d83e77-9e05-409f-9bd9-96cff19c06e1)
+
 #-------------------TYPING SPEDD---------------------
+![Screenshot 2023-12-21 114029](https://github.com/vipulghadi/JAVASCRIPT-PROJECTS-IMP-/assets/99540970/726db858-00db-48c4-aa54-859a27d15227)
